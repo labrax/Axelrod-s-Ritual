@@ -1,0 +1,29 @@
+Axelrod's Ritual
+Created by labrax
+
+Game created during Global Game Jam 2016 at São Paulo/Campinas Gamux in the University of Campinas.
+
+This is a game about culture simulation using Axelrod's model for propagation of traits.
+Different colors indicate individuals with its traits.
+
+Your goal is to make a single culture rule, or otherwise, try to balance it.
+The game stops when a single culture dominates.
+
+Controls
+- Use the keys 0, 1, 2, ... 9 to set the speed (0 is paused).
+- Press space on the selected individual to cast a spell.
+
+Spells
+- Flash affects only the selected individual, other spells affect all the individuals that share traits.
+- After selecting the spell you'll have to do the ritual, pressing the correct keys before the key run outs!
+- Press ESC to cancel.
+- If you fail all individuals will flash 3 times.
+
+
+The selected individual is the one marked with black.
+The ritual keys are: UP, DOWN, LEFT, RIGHT, A, B, X, Y.
+
+KNOWN BUGS:
+- at Grid.updateCultureText() gives an index out of bounds for some trait sometimes. 
+
+https://github.com/labrax/Axelrod-s-Ritual
