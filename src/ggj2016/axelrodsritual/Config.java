@@ -72,7 +72,7 @@ public class Config {
 	/**
 	 * Screen information
 	 */
-	public static boolean FULLSCREEN = true;
+	public static boolean FULLSCREEN = false;
 	public static int SCREEN_WIDTH = 1280;
 	public static int SCREEN_HEIGHT = 720;
 	
